@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array</title>
+   
+</head>
+<body>
+
+    <h1>this is an arithmetic function along side map and foreach loop</h1>
+
+    <script>
+        let myArr = [65,9,34,12,3,7];
+        console.log(myArr.map(function(value){
+            //return 
+           // value += 56;
+        alert( "map_of_array_[65,9,34,12,3,7]"+ ' =' + value);
+            }));
+        
+        
+
+
+
+        console.log("Result Array:" + myArr);
+        let sum = 0;
+        myArr.forEach(function(item){
+            sum += item;
+            console.log ("sum" + sum);
+            alert("sum_of_array_[65,9,34,12,3,7]_using_foreach_is" + " "+sum);  
+        });
+        
+
+   
+    
+        let extraPoint = 50
+        console.log(extraPoint);
+        alert("value_of_extraPoint_is"+ ' ='+ extraPoint);
+
+        extraPoint = extraPoint * 2
+        console.log(extraPoint);
+        alert("value_of_extraPoint_multiply_by_2_is"+ ' ='+ extraPoint);
+
+        extraPoint = extraPoint - 25
+        console.log(extraPoint);
+        alert("value_of_extraPoint_minus_25_is"+ ' ='+ extraPoint);
+
+        extraPoint = extraPoint + 25
+        console.log(extraPoint);
+        alert("value_of_extraPoint_plus 25_is"+ ' ='+ extraPoint);
+
+        extraPoint = extraPoint / 75
+        console.log(extraPoint);
+
+        alert("value_of_extraPoint_divided_by_75_is"+ ' ='+ extraPoint);
+
+    </script> 
+    
+    
+</body>
+</html>
